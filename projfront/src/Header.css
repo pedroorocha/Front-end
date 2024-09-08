@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: linear-gradient(to right, #369945 0%, #359543 19%, #56BFC9 100%);
+    padding: 10px 0;
+    margin: 0;
+    top: 0px;
+    height: 150px;
+
+}
+#logo{
+    height: 75px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 25px;
+
+}
+#linha-vertical {
+    height: 115px;
+    width: 2px;
+    position: fixed;
+    left: 375px;
+    top: 25px;
+    border-right: 1px solid white;
+}
+#sisacadg{
+    font-size: 30px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    position: fixed;
+    left: 400px;
+    top: 15px;
+}
+#sis{
+    font-size: 15px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    position: fixed;
+    left: 400px;
+    top: 60px;
+}
+#grad{
+    font-size: 15px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    position: fixed;
+    left: 400px;
+    top: 75px;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    position: fixed;
+    left: 41%;
+    top: 220px;
+    font-size: 30px;
+}
+#email{
+    position: fixed;
+    left: 37%;
+    top: 300px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(68, 102, 68, 0.5);
+}
+#imp_email{
+    position: fixed;
+    left: 42%;
+    top: 315px;
+    width: 15%;
+    height: 25px;
+    border: none;
+}
+#line1{
+    width: 21%;       
+    border: none;             
+    border-top: 2px solid #ccc; 
+    margin: 20px 0; 
+    position: fixed;
+    left: 37%;
+    top: 330px;
+    
+
+}
+#senha{
+    position: fixed;
+    left: 37%;
+    top: 350px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(68, 102, 68, 0.5);
+    
+
+}
+#imp_senha{
+    position: fixed;
+    left: 42%;
+    top: 370px;
+    width: 15%;
+    height: 25px;
+    border: none;
+}
+#line2{
+    width: 21%;       
+    border: none;             
+    border-top: 2px solid #ccc; 
+    margin: 20px 0; 
+    position: fixed;
+    left: 37%;
+    top: 385px;
+}
+#entra{
+    position: fixed;
+    left: 37%;
+    top: 440px;
+    height: 40px;
+    width: 21%;
+    color: white;
+    background-color: rgb(75, 159, 55, 0.8);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    font-family: "IBM Plex Sans", sans-serif;
+    
+}
+#cadastra{
+    position: fixed;
+    left: 37%;
+    top: 495px;
+    height: 40px;
+    width: 21%;
+    font-size: 14px;
+    background-color: white;
+    border-width: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#entra:active{
+    background-color: #45a049;
+}
+#cadastra:active{
+    background-color: antiquewhite;
+
+}
+#esq{
+    position: fixed;
+    left: 51%;
+    font-size: 11px;
+    top: 410px;
+    color: #008241;
+    font-family: "IBM Plex Sans", sans-serif;
+}
