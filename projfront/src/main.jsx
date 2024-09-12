@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './HeaderMenu.jsx'
+import App from './TelaCursos.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

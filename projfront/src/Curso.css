@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#C{
+    height: 140px;
+    width: 1200px;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: 45px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+#vercurso{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 880px;
+    width: 250px;
+    height: 36px;
+    background: linear-gradient(to right, #369945 0%, #359543 19%, #56BFC9 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+#vercurso:hover{
+    background: linear-gradient(to left, #369945 0%, #359543 19%, #56BFC9 100%);
+}
+#vercurso:active{
+    background: linear-gradient(to right, #99378a 0%, #953688 19%,  #c96156 100%);
+
+}
+#infocurso{
+    font-family: "IBM Plex Sans", sans-serif;
+    height: 10px;
+    width: 190px;
+    font-size: 12px;
+    color: #2D4040;
+    position: relative;
+    left: 30px;
+    top: 15%;
+}

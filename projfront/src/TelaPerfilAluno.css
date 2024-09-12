@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 23px;
+    color: #446644;
+    position: fixed;
+    left: 600px;
+}
+#curso{
+    background-color: white;
+    height: 140px;
+    width: 800px;
+    position: fixed;
+    left: 600px;
+    top: 250px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+#inscrevase{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    position: fixed;
+    left: 1220px;
+    top: 300px;
+    width: 150px;
+    height: 36px;
+    background: linear-gradient(to right, #369945 0%, #359543 19%, #56BFC9 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+
+}
+#inscrevase:hover{
+    background: linear-gradient(to left, #369945 0%, #359543 19%, #56BFC9 100%);
+}
+#inscrevase:active{
+    background: linear-gradient(to right, #99378a 0%, #953688 19%,  #c96156 100%);
+
+}
+#curso2{
+    background-color: white;
+    height: 140px;
+    width: 800px;
+    position: fixed;
+    left: 600px;
+    top: 420px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+#inscrevase2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    position: fixed;
+    left: 1220px;
+    top: 465px;
+    width: 150px;
+    height: 36px;
+    background: linear-gradient(to right, #369945 0%, #359543 19%, #56BFC9 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+
+}
+#inscrevase2:hover{
+    background: linear-gradient(to left, #369945 0%, #359543 19%, #56BFC9 100%);
+}
+#inscrevase2:active{
+    background: linear-gradient(to right, #99378a 0%, #953688 19%,  #c96156 100%);
+}
+#vermais{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    position: fixed;
+    left: 1300px;
+    top: 580px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+}
+#vermais:hover{
+    background-color: cyan;
+}
+#vermais:active{
+    background-color: gray;
+}
+#linhaT{
+    height: 380px;
+    width: 2px;
+    position: fixed;
+    left: 550px;
+    top: 215px;
+    border-right: 1px solid black;
+}
+h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+}
+#data{
+    height: 10px;
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+#textinhos{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 10px;
+    margin: 35px;
+    padding: 5px;
+}
+#textos{
+    width: 400px;
+    margin: 40px;
+}
