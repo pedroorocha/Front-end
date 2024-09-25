@@ -5,7 +5,6 @@ function HeaderMenuVoltar(){
     return(
         <body>
             <HeaderMenu/>
-            <button id="voltar">←Voltar</button>
                 
         </body>
         

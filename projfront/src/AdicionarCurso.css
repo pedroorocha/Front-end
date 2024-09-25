@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#Add{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #446644;
+    position: relative;
+    left: 20px;
+}
+#titulo{
+    position: relative;
+    left: 22px;
+    width: 400px;
+    height: 20px;
+    margin: 10px;
+}
+#desc{
+    width: 1255px;
+    height: 200px;
+    position: relative;
+    left: 31px;
+}
+#desc::placeholder{
+    text-align: left;
+    vertical-align: top;
+    padding-top: 0;
+}
+#data{
+    position: relative;
+    left: 31px;
+    height: 20px;
+    width: 200px;
+}
+select{
+    position: relative;
+    left: 31px;
+    height: 24px;
+    width: 200px;
+    margin: 10px;
+
+}
+#tempo{
+    position: relative;
+    left:21px;
+    width: 68px;
+    margin: 10px;
+}
+#confimar{
+    position: relative;
+    left: 1050px;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: rgb(75, 159, 55, 0.8);
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    height: 36px;
+    border-radius: 25px;
+}
+#confimar:hover{
+    background-color: #446644;
+}
+#confimar:active{
+    background-color: black;
+}
+#qtd{
+    height: 18px;
+    position: relative;
+    left: 40px;
+    margin: 10px;
+}

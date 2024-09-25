@@ -1,29 +1,47 @@
 import HeaderMenuVolta from "./HeaderMenuVoltar"
-import Curso from "./Curso.jsx"
+import CursoAluno from "./CursoAluno.jsx"
 import './TelaCursos.css'
+import axios from "axios";
+import { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+
 function TelaCursos(){
 
+    const navigate = useNavigate();
+
+
+    const [eventos, setEventos] = useState([]);
+    useEffect(() =>{
+            const fetchEventos = async () => {
+                try {
+                    const response = await axios.get("http://localhost:5077/api/evento");
+                    setEventos(response.data);
+                    
+                } catch (error) {
+                    console.error("Erro ao buscar eventos:", error);
+                    
+                }
+            };
+            fetchEventos();
+        }, [])
+
     return(
-    <body>
+    <div>
         <HeaderMenuVolta/>
         <div>
-        <input type="text" placeholder="Pesquisar" />
-        <button id="pesquisa">lupa</button>
-        <select id="dropdown">
-            <option value="opcao1">Opção 1</option>
-            <option value="opcao2">Opção 2</option>
-            <option value="opcao3">Opção 3</option>
-            <option value="opcao4">Opção 4</option>
-        </select>
-        <select id="dropdown2">
-            <option value="opcao1">Opção 1</option>
-            <option value="opcao2">Opção 2</option>
-            <option value="opcao3">Opção 3</option>
-            <option value="opcao4">Opção 4</option>
-        </select>
+        <input type="text" placeholder="Pesquisar" id="pesq" />
+        <button id="pesquisa">
+            <img src="images\lupa.png" height="15px"></img>
+            </button>
         </div>
-        
-    </body>
+        <ul>
+                {eventos.map((evento) => (
+                    <div key={evento.id}>
+                        <CursoAluno titulo = {evento.nome} data = {evento.data} hora = {evento.hora} vagas = {evento.qtdMaximaParticipantes} id = {evento.id}/>        
+                    </div>
+                ))}
+            </ul>
+    </div>
     )
 }
 export default TelaCursos

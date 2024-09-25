@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#inicio{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: fixed;
+    left: 50px;
+    top: 135px;
+    color: white;
+}
+#inicio:hover{
+    background-color: #45a049;
+    color: black;
+}
+#inicio:active{
+    background-color: #438719;
+    color: white;
+}
+#linha-init {
+    height: 20px;
+    width: 2px;
+    position: fixed;
+    left: 120px;
+    top: 140px;
+    border-right: 1px solid white;
+}
+#cursos{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: fixed;
+    left: 130px;
+    top: 135px;
+    color: white;
+}
+#cursos:hover{
+    background-color: #45a049;
+    color: black;
+}
+#cursos:active{
+    background-color: #438719;
+    color: white;
+}
+#linha-cu {
+    height: 20px;
+    width: 2px;
+    position: fixed;
+    left: 210px;
+    top: 140px;
+    border-right: 1px solid white;
+}
+#editarCursos{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 220px;
+    top: -132px;
+    color: white;
+}
+#editarCursos:hover{
+    background-color: #45a049;
+    color: black;
+}
+#editarCursos:active{
+    background-color: #438719;
+    color: white;
+}
+h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #446644;
+    font-size: 25px;
+
+}
+#voltar{
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    top: 130px;
+    left: 1370px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 26px;
+    color: white;
+}
+#voltar:hover{
+    color: gray;
+}
+#voltar:active{
+    background-color: pink;
+    border-radius: 100px;
+}

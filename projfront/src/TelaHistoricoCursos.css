@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#historiocurso{
+    font-family: "IBM Plex Sans", sans-serif;
+    position: relative;
+    left: 110px;
+    color: #446644;
+    top: -70px;
+}
+#pesq-bar{
+    font-family: "IBM Plex Sans", sans-serif;
+    height: 26px;
+    width: 361px;
+    border-radius: 50px;
+    position: relative;
+    left: 105px;
+    top: -55px;
+    border-width: 0.5px;
+}
+#pesquisa{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: transparent;
+    position: relative;
+    left: 115px;
+    top: 0px;
+    border: none;
+}
+#pesquisa:hover{
+    color: gray;
+}
+#pesquisa:active{
+    background-color: gray;
+    border-radius: 50px;
+}
+
+#cria{
+
+    font-family: "IBM Plex Sans", sans-serif;
+    position: relative;
+    left: 160px;
+    top: 35px;
+    background-color: white;
+    height: 26px;
+    width: 130px;
+    border-radius: 50px;
+
+}
+#cria:hover{
+    background-color:gray;
+}
+#cria:active{
+    background-color: black;
+    color: white;
+}

@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-nav{
+#menu{
     background: linear-gradient(to right, #369945 0%, #359543 19%, #56BFC9 100%);
     padding: 10px 0;
     margin: 0;
@@ -20,34 +20,35 @@ nav{
 
 }
 #linha-vertical {
-    height: 115px;
-    width: 2px;
-    position: fixed;
+    height: 100px;
+    width: 1px;
+    position: relative;
     left: 375px;
-    top: 25px;
+    top: -45px;
+    color: white;
     border-right: 1px solid white;
 }
 #sisacadg{
     font-size: 30px;
     font-family: "IBM Plex Sans", sans-serif;
     color: white;
-    position: fixed;
+    position: relative;
     left: 400px;
-    top: 15px;
+    top: -180px;
 }
 #sis{
     font-size: 15px;
     font-family: "IBM Plex Sans", sans-serif;
     color: white;
-    position: fixed;
+    position: relative;
     left: 400px;
-    top: 60px;
+    top: -215px;
 }
 #grad{
     font-size: 15px;
     font-family: "IBM Plex Sans", sans-serif;
     color: white;
-    position: fixed;
+    position: relative;
     left: 400px;
-    top: 75px;
+    top: -230px;
 }

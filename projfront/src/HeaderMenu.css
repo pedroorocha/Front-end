@@ -4,9 +4,9 @@
     background-color: transparent;
     border: none;
     font-size: 20px;
-    position: fixed;
+    position: relative;
     left: 50px;
-    top: 135px;
+    top: -35px;
     color: white;
 }
 #inicio:hover{
@@ -20,9 +20,9 @@
 #linha-init {
     height: 20px;
     width: 2px;
-    position: fixed;
+    position: relative;
     left: 120px;
-    top: 140px;
+    top: -58px;
     border-right: 1px solid white;
 }
 #cursos{
@@ -30,9 +30,9 @@
     background-color: transparent;
     border: none;
     font-size: 20px;
-    position: fixed;
+    position: relative;
     left: 130px;
-    top: 135px;
+    top: -83px;
     color: white;
 }
 #cursos:hover{
@@ -46,9 +46,9 @@
 #linha-cu {
     height: 20px;
     width: 2px;
-    position: fixed;
+    position: relative;
     left: 210px;
-    top: 140px;
+    top: -107px;
     border-right: 1px solid white;
 }
 #meusCursos{
@@ -56,9 +56,9 @@
     background-color: transparent;
     border: none;
     font-size: 20px;
-    position: fixed;
+    position: relative;
     left: 220px;
-    top: 135px;
+    top: -133px;
     color: white;
 }
 #meusCursos:hover{

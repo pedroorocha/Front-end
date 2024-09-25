@@ -5,7 +5,7 @@ function Login(){
     return(
         
         <body>
-            <Header/>
+            
             <div>
                 <h1><strong>BEM-VINDO!</strong></h1>
                 <br></br>

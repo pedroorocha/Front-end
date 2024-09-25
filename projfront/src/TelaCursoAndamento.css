@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#inscrição{
+    height: 380px;
+    width: 1350px;
+    background-color: transparent;
+    position: relative;
+    left: 80px;
+    top: 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+#titulodocurso{
+    font-family: "IBM Plex Sans", sans-serif;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+#informações{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: #2D4040;
+}
+#descrição{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+#texto{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 12px;
+    width: 1100px;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+#lista{
+    font-family: "IBM Plex Sans", sans-serif;
+    position: relative;
+    left: 80px;
+    top: -120px;
+    height: 40px;
+    width: 10%;
+    font-size: 14px;
+    background-color: rgb(75, 159, 55, 0.8);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+#lista:hover{
+    background-color: #2D4040;
+}
+#lista:active{
+    background-color: black;
+}
+#editar{
+    position: relative;
+    left: 550px;
+    top: 100px;
+    font-family: "IBM Plex Sans", sans-serif;
+    height: 40px;
+    width: 10%;
+    font-size: 14px;
+    background-color: rgb(75, 159, 55, 0.8);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+#editar:hover{
+    background-color: #2D4040;
+}
+#editar:active{
+    background-color: black;
+}
