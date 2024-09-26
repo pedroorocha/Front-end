@@ -27,11 +27,15 @@ function TelaCursoAndamento(){
             fetchEventos();
         }, [])
 
+        const handleClick=()=>{
+            navigate("/TelaListaPresença", {state:{id: id}})
+        }
+
     return (
 
         <div>
             <HeaderProfessor/>
-            <button id="lista" onClick={() => navigate('/TelaListaPresença')}>Lista Alunos</button>
+            <button id="lista" onClick={handleClick}>Lista Alunos</button>
             <div id="inscrição">
                     <div> 
                     <h3 id="titulodocurso">{evento.nome}</h3>

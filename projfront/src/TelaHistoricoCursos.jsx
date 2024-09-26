@@ -34,7 +34,7 @@ function TelaHistoricoCursos(){
         <button id="pesquisa">
             <img src="images\lupa.png" height="15px"></img>
             </button>
-        <button id="cria" onClick={() => navigate('/AdicionarCurso')}>Criar Curso</button>
+        <button id="criar" onClick={() => navigate('/AdicionarCurso')}>Criar Curso</button>
             </div>
             <ul>
                 {eventos.map((evento) => (

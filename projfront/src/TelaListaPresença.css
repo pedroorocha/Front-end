@@ -4,14 +4,15 @@
     color: #446644;
     position: relative;
     left: 50px;
-    top: 10px;
+    top: -80px;
  }
 #nomealuno{
     font-family: "IBM Plex Sans", sans-serif;
     background-color: transparent;
     position: relative;
-    left: 50px;
+    left: 350px;
     width: 280px;
+    top: -70px;
     height: 22px;
     border-radius: 50px;
 }
@@ -20,7 +21,7 @@
     background-color: rgb(75, 159, 55, 0.8);
     position: relative;
     left: 115px;
-    top: 0px;
+    top: -70px;
     border: none;
     border: none;
     border-radius: 25px;
@@ -35,9 +36,15 @@
 #presença:active{
     background-color: black;
 }
-#opção{
-    font-family: "IBM Plex Sans", sans-serif;
+#nomes{
     position: relative;
-    left: 50px;
-    margin: 5px;
+    left: 70px;
+    top: -60px;
+}
+#check{
+
+    position: relative;
+    left: -30px;
+    top: 35px;
+
 }

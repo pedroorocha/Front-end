@@ -1,0 +1,84 @@
+#cad{
+    position: relative;
+    top: 5px;
+}
+#dados{
+    position: relative;
+    top: 10px;
+    left: 450px;
+    margin: 5px;
+    color: rgb(68, 102, 68, 0.5);;
+}
+#matr{
+    position: relative;
+    left: 550px;
+    top: 10px;
+    height: 15px;
+}
+#e-mail{
+    position: relative;
+    left: 571px;
+    top: 10px;
+    height: 15px;
+}
+#pass{
+    position: relative;
+    left: 572px;
+    top: 10px;
+    height: 15px;
+}
+#csenha{
+    position: relative;
+    left: 499px;
+    top: 10px;
+    height: 15px;
+}
+#nome{
+    position: relative;
+    left: 574px;
+    top: 10px;
+    height: 15px;
+}
+#cpf{
+    position: relative;
+    left: 589px;
+    top: 10px;
+    height: 15px;
+}
+#curso{
+    position: relative;
+    left: 575px;
+    top: 10px;
+    height: 15px;
+}
+#date{
+    position: relative;
+    left: 474px;
+    top: 10px;
+    height: 15px;
+    width: 165px;
+}
+#tel{
+    position: relative;
+    left: 559px;
+    top: 10px;
+    height: 15px;
+    width: 163px;
+}
+#cada{
+    position: relative;
+    left: 500px;
+    top: 50px;
+    height: 40px;
+    width: 21%;
+    font-size: 14px;
+    background-color: white;
+    border-width: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+#cada:active{
+    background-color: antiquewhite;
+
+}

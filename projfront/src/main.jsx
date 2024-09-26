@@ -8,6 +8,8 @@ import TelaCursos from './TelaCursos.jsx'
 import TelaInscriçãoCurso from './TeleInscriçãoCurso.jsx'
 import AdicionarCurso from './AdicionarCurso.jsx'
 import TelaInicial from './TelaInicial.jsx'
+import TelaCadastro from './TelaCadastro.jsx'
+import InfoUsuarios from './InfoUsuarios.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
     path:"TelaCursos",
     element:<TelaCursos/>
   },
+  {
+    path:"TelaCadastro",
+    element:<TelaCadastro/>
+  },
+  {
+    path:"InfoUsuarios",
+    element:<InfoUsuarios/>
+  }
 ])
 
 createRoot(document.getElementById('root')).render(

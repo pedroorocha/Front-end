@@ -5,9 +5,10 @@ import { useEffect } from "react";
 function Curso(props){
     const navigate = useNavigate();
     function andamento(){
-        navigate('/TelaInscriçãoCurso', {state: {id: id}})
+        navigate('/TelaInscriçãoCurso', {state: {id: id, matricula:matricula}})
     };
     const id = props.id;
+    const matricula = props.matricula
     return(
         <div>
             <div id="C">
@@ -16,6 +17,7 @@ function Curso(props){
                 <p id="infocurso">{props.hora}</p>
                 <p id="infocurso">Vagas: {props.vagas}</p>
                 <button id="vercurso" value={props.id} onClick={andamento}>Ver curso</button>
+                
             </div> 
             </div>
         

@@ -4,11 +4,15 @@ import './TelaCursos.css'
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import HeaderMenu from "./HeaderMenu.jsx";
 
 function TelaCursos(){
 
     const navigate = useNavigate();
-
+    const location = useLocation();
+    const { matricula } = location.state || {};
+    const M = matricula
 
     const [eventos, setEventos] = useState([]);
     useEffect(() =>{
@@ -27,7 +31,7 @@ function TelaCursos(){
 
     return(
     <div>
-        <HeaderMenuVolta/>
+        <HeaderMenu matricula ={M}/>
         <div>
         <input type="text" placeholder="Pesquisar" id="pesq" />
         <button id="pesquisa">
@@ -37,10 +41,11 @@ function TelaCursos(){
         <ul>
                 {eventos.map((evento) => (
                     <div key={evento.id}>
-                        <CursoAluno titulo = {evento.nome} data = {evento.data} hora = {evento.hora} vagas = {evento.qtdMaximaParticipantes} id = {evento.id}/>        
+                        <CursoAluno titulo = {evento.nome} data = {evento.data} hora = {evento.hora} vagas = {evento.qtdMaximaParticipantes} id = {evento.id} matricula ={matricula}/>        
                     </div>
                 ))}
             </ul>
+            
     </div>
     )
 }

@@ -24,7 +24,7 @@ function AdicionarCurso(){
 
     const handleClick = async () => {
         const dados = {
-          id: 0,
+          
           nome: titulo,
           categoria: categoria,
           tema: tema,
@@ -49,7 +49,7 @@ function AdicionarCurso(){
     return (
         <div>
             <HeaderProfessor/>
-            <div>
+            <div id="cadastro">
                 
                 <h3 id="Add">Adicionar Novo Curso/Editar Curso</h3>  
                 <input id="titulo" placeholder="Titulo" type="text" onChange={(e) => setTitulo(e.target.value)} ></input>

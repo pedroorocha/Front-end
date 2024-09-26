@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>APS_Backend.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APS-Backend.Domain\APS-Backend.Domain.csproj" />
+    <ProjectReference Include="..\APS-Backend.Persistence\APS-Backend.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
